@@ -11,6 +11,7 @@ object mirca {
 		if (tolerancia < chico.capacidadSusto()){
 			caramelos = chico.capacidadSusto() - tolerancia
 		}
+		return caramelos
 	}
 	method caramelosAEntregar(chico){
 		return caramelos

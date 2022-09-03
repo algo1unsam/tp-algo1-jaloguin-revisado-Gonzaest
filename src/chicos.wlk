@@ -6,7 +6,7 @@ object macaria {
 	var property caramelos = 0
 	
 	method recibirCaramelos(){
-		return (caramelos * 0.75).div()
+		return (caramelos * 0.75)
 	}
 	method enojar(){
 		nivelIra += 1

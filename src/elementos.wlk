@@ -6,16 +6,10 @@ object trajeDeBruja {
 
 object barba {
 	var long = 2
+	
 	method nivelSusto(){
 		return 5 * long
 	}
-	method agregarPelos(numero){
-		long += numero 
-	}
-	method pierdePelos(tiempo){
-		long -= tiempo
-	}
-	
 }
 
 object mascaraDracula {

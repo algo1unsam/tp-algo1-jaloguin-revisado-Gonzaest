@@ -4,16 +4,13 @@ import elementos.*
 
 object mirca {
 	var property tolerancia = 22
+	var caramelos = 0
 	
 	method serAsustadoPor(chico){
 		tolerancia += 1
 		if (tolerancia < chico.capacidadSusto()){
-			chico.recibirCaramelos() = chico.capacidadSusto() - tolerancia
+			caramelos = chico.capacidadSusto() - tolerancia
 		}
-		
-		
-	}
-	method darCaramelos(){
-		
+		chico.recibirCaramelos(caramelos)		
 	}
 }

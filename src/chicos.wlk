@@ -53,6 +53,9 @@ object pancracio {
 }
 
 object pedro {
+	method capacidadSusto(){
+		return 0
+	}
 	
 }
 

@@ -13,7 +13,7 @@ object mirca {
 		}
 	}
 	method caramelosAEntregar(chico){
-		chico.entregarCaramelos(caramelos)
+		return caramelos
 	}
 	
 }

@@ -7,10 +7,13 @@ object mirca {
 	var caramelos = 0
 	
 	method serAsustadoPor(chico){
-		tolerancia += 1
+		tolerancia -= 1
 		if (tolerancia < chico.capacidadSusto()){
 			caramelos = chico.capacidadSusto() - tolerancia
 		}
-		chico.recibirCaramelos(caramelos)		
 	}
+	method caramelosAEntregar(chico){
+		chico.entregarCaramelos(caramelos)
+	}
+	
 }
